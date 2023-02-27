@@ -1,0 +1,38 @@
+.standard-picture-section {
+  background-image: url(../../assets/images/Tab-panel.png);
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.standard-picture-section .information {
+  max-width: 475px;
+}
+
+.standard-picture-section .title {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.standard-picture-section .title:after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 2px;
+  bottom: 0rem;
+  left: 0rem;
+  background: #ff8b38;
+}
+
+.standard-picture-section .paragraph {
+  color: #86878b;
+}
+
+@media screen and (min-width: 1440px) {
+  .standard-picture-section {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,63 @@
+.tabs-section {
+  text-align: center;
+  padding-top: 145px;
+  padding-bottom: 145px;
+  background-image: url(../../assets/images/Tab-panel.png);
+}
+
+.tabs-section .tab {
+  display: block;
+  padding: 50px 35px;
+  background-color: #333333;
+  margin-bottom: 2px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+}
+
+.tabs-section .tab:first-child {
+  background-color: #ff8b38;
+  color: white;
+}
+
+.tabs-section .paragraph {
+  font-size: 14px;
+  margin: 55px 0px;
+  color: #9e9b9b;
+}
+
+.tabs-section .btn-download {
+  border-radius: 3px;
+  background-color: #ff8b38;
+  color: white;
+}
+
+.tabs-section .btn-download:hover {
+  background-color: white;
+  color: #ff8b38;
+  border: 1px solid #ff8b38;
+}
+
+.tabs-section .tab-introduction {
+  max-width: 250px;
+  margin: 20px auto;
+}
+
+@media screen and (min-width: 768px) {
+  .header-wrapper .navbar-item a {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .tabs-section .tab-introduction {
+    max-width: 425px;
+  }
+
+  .tabs-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+}

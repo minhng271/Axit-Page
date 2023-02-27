@@ -1,0 +1,37 @@
+.header-wrapper {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.header-wrapper .logo {
+  height: fit-content;
+}
+
+.header-wrapper .navbar-list {
+  display: flex;
+}
+
+.header-wrapper .navbar-item a {
+  color: white;
+  margin-left: 10px;
+}
+
+.header-wrapper .navbar-item :hover {
+  border-bottom: 1px solid white;
+}
+
+@media screen and (min-width: 768px) {
+  .header-wrapper .navbar-item a {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header-wrapper .navbar-item a {
+    margin-left: 50px;
+  }
+}
